@@ -9,9 +9,13 @@ html{
 }
 
 body{
-    background:#0f172a;
-    color:white;.hero,
-    
+
+background:linear-gradient(135deg,#0f172a,#111827,#1e293b);
+
+color:white;
+
+overflow-x:hidden;
+
 }
 
 
@@ -373,4 +377,53 @@ button:hover{
     color:white;
     border:none;
     cursor:pointer;
+}
+.btn{
+    display:inline-block;
+    padding:12px 28px;
+    margin-right:15px;
+    background:#38bdf8;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    font-size:16px;
+    font-weight:600;
+    transition:0.3s ease;
+    border:2px solid #38bdf8;
+}
+
+.btn:hover{
+    background:transparent;
+    color:#38bdf8;
+    transform:translateY(-3px);
+    box-shadow:0 8px 20px rgba(56,189,248,0.3);
+}
+.scroll-down{
+
+    text-align:center;
+
+    font-size:40px;
+
+    margin-top:50px;
+
+    color:#38bdf8;
+
+    animation:move 1s infinite alternate;
+
+}
+
+@keyframes move{
+
+    from{
+
+        transform:translateY(0);
+
+    }
+
+    to{
+
+        transform:translateY(15px);
+
+    }
+
 }
