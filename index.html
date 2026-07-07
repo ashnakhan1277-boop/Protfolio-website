@@ -252,20 +252,32 @@ I'm a
     </div>
 
 </section>
+
 <section id="contact" class="contact">
 
     <h2>Contact Me</h2>
-<form action="https://formsubmit.co/ashnakhan1277@gmail.com" method="POST">
 
-    <input type="text" name="name" placeholder="Your Name" required>
+    <form action="https://formsubmit.co/ashnakhan1277@gmail.com" method="POST">
 
-    <input type="email" name="email" placeholder="Your Email" required>
+        <input type="text" name="name" placeholder="Your Name" required>
 
-    <textarea name="message" placeholder="Your Message" required></textarea>
+        <input type="email" name="email" placeholder="Your Email" required>
 
-    <button type="submit">Send Message</button>
-</form>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+
+        <!-- Spam Protection -->
+        <input type="hidden" name="_captcha" value="false">
+
+        <!-- Thank You Page -->
+        <input type="hidden" name="_next" value="https://ashnakhan1277-boop.github.io/Protfolio-website/">
+
+        <button type="submit">Send Message</button>
+
+    </form>
+
 </section>
+
+    
 <button id="topBtn">↑</button>
 
 <footer class="footer">

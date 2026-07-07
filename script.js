@@ -49,23 +49,16 @@ function type(){
 }
 
 type();
-const form = document.querySelector("form");
+ <form action="https://formsubmit.co/ashnakhan1277@gmail.com" method="POST">
 
-form.addEventListener("submit", function(e){
+    <input type="text" name="name" placeholder="Your Name" required>
 
-    e.preventDefault();
+    <input type="email" name="email" placeholder="Your Email" required>
 
-    const name = document.querySelector('input[type="text"]').value;
-    const email = document.querySelector('input[type="email"]').value;
-    const message = document.querySelector("textarea").value;
+    <textarea name="message" placeholder="Your Message" required></textarea>
 
-    if(name === "" || email === "" || message === ""){
-        alert("Please fill all fields!");
-        return;
-    }
+    <input type="hidden" name="_captcha" value="false">
 
-    alert("Message sent successfully!");
+    <button type="submit">Send Message</button>
 
-    form.reset();
-
-});
+</form>
