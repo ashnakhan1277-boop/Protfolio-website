@@ -551,3 +551,229 @@ nav{
     z-index:1000;
     background:#0f172a;
 }
+/* =========================
+   Mobile Responsive
+========================= */
+
+@media screen and (max-width:768px){
+
+    /* Navbar */
+    nav{
+        flex-direction:column;
+        align-items:center;
+        gap:15px;
+        padding:15px;
+    }
+
+    .nav-links{
+        flex-direction:column;
+        gap:15px;
+        text-align:center;
+    }
+
+    .hire-btn{
+        margin-top:10px;
+    }
+
+    /* Hero Section */
+    .hero{
+        flex-direction:column;
+        text-align:center;
+        padding:50px 20px;
+    }
+
+    .left,
+    .right{
+        width:100%;
+    }
+
+    .hero img{
+        width:220px;
+        height:220px;
+        margin-top:25px;
+    }
+
+    .left h1{
+        font-size:36px;
+    }
+
+    .left h3{
+        font-size:22px;
+    }
+
+    .left p{
+        font-size:16px;
+    }
+
+    /* Buttons */
+    button,
+    .btn,
+    .btn2{
+        width:100%;
+        margin:10px 0;
+    }
+
+    /* Skills */
+    .skill-container{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .skill-box{
+        width:90%;
+    }
+
+    /* Projects */
+    .project-container{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .project-card{
+        width:90%;
+    }
+
+    /* Services */
+    .service-container{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .service-card{
+        width:90%;
+    }
+
+    /* Contact Form */
+    form{
+        width:100%;
+    }
+
+    input,
+    textarea{
+        width:100%;
+    }
+
+    /* Footer */
+    footer{
+        text-align:center;
+        padding:20px;
+    }
+
+}
+img{
+    max-width:100%;
+    height:auto;
+}
+@media (max-width:768px){
+
+    nav{
+        flex-direction:column;
+        align-items:center;
+        padding:15px;
+    }
+
+    .nav-links{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:15px;
+        padding:0;
+        margin:15px 0;
+    }
+
+    .nav-links li{
+        list-style:none;
+    }
+
+    .hero{
+        display:flex;
+        flex-direction:column-reverse;
+        align-items:center;
+        text-align:center;
+        padding:40px 20px;
+    }
+
+    .left{
+        width:100%;
+    }
+
+    .right{
+        width:100%;
+        margin-bottom:25px;
+    }
+
+    .right img{
+        width:220px;
+        height:220px;
+        border-radius:50%;
+        object-fit:cover;
+    }
+
+    .left h1{
+        font-size:45px;
+        line-height:1.2;
+    }
+
+    .left h3{
+        font-size:26px;
+    }
+
+    .left p{
+        font-size:16px;
+    }
+
+    .buttons{
+        display:flex;
+        flex-direction:column;
+        gap:15px;
+        margin-top:20px;
+    }
+
+    .buttons button{
+        width:100%;
+    }
+
+    .project-container,
+    .service-container,
+    .skill-container{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .project-card,
+    .service-card,
+    .skill-box{
+        width:90%;
+    }
+}
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:80px 10%;
+    gap:50px;
+}
+@media (max-width:768px){
+
+.hero{
+    flex-direction:column-reverse;
+    text-align:center;
+}
+
+.left,
+.right{
+    width:100%;
+}
+
+.right img{
+    width:220px;
+    height:220px;
+    border-radius:50%;
+}
+
+.left h1{
+    font-size:42px;
+}
+
+}
